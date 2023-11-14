@@ -1,0 +1,287 @@
+.exercises{
+    width: 95%;
+    height: 900px;
+    margin: 0 auto;
+    .exercises__txt{
+        width: 100%;
+        height: 45px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 50px ;
+        
+         .txt__left{
+            color: #FFF;
+            font-family: Poppins;
+            font-size: 35px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 45px; 
+            letter-spacing: 0.3px;
+        }
+        .txt__right{
+            color: #FFF;
+            font-family: Poppins;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 12px;
+            letter-spacing: 1.5px;
+        }
+    }
+
+    .exercises__boxes{
+        width: 100%;
+        height: 700px;
+        margin-top: 60px;
+
+        .exercises__boxes1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 200px;
+        }
+
+        .exercises__box1{
+            width: 373px;
+            height: 296px;
+            background-color: #000;
+        }
+
+        .text__box-1{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        }
+
+        .text__box-1 h2{
+            color: #FFF;
+            font-family: Poppins;
+            font-size: 50px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 45px;
+            letter-spacing: 0.3px;
+            position: relative;
+            bottom: 45px;
+            left: 20px;
+        }
+
+
+        .img__box1 h3{
+            color: #FFF;
+            position: relative;
+            bottom: 30px;
+            left: 20px;
+            font-family: Poppins;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 14px;  
+            letter-spacing: 0.5px;
+        }
+        .exercises__box2{
+            width: 373px;
+            height: 296px;
+            background-color: #000;
+        }
+
+        .text__box-2{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        }
+
+        .text__box-2 h2{
+            color: #FFF;
+            font-family: Poppins;
+            font-size: 50px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 45px;
+            letter-spacing: 0.3px;
+            position: relative;
+            bottom: 45px;
+            left: 20px;
+        }
+
+
+        .img__box2 h3{
+            color: #FFF;
+            position: relative;
+            bottom: 30px;
+            left: 20px;
+            font-family: Poppins;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 14px;  
+            letter-spacing: 0.5px;
+        }
+
+        .exercises__box3{
+            width: 373px;
+            height: 296px;
+            background-color: #000;
+        }
+
+        .text__box-3{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        }
+
+        .text__box-3 h2{
+            color: #FFF;
+            font-family: Poppins;
+            font-size: 50px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 45px;
+            letter-spacing: 0.3px;
+            position: relative;
+            bottom: 45px;
+            left: 20px;
+        }
+
+
+        .img__box3 h3{
+            color: #FFF;
+            position: relative;
+            bottom: 30px;
+            left: 20px;
+            font-family: Poppins;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 14px;  
+            letter-spacing: 0.5px;
+        }
+        .exercises__box4{
+            width: 373px;
+            height: 296px;
+            background-color: #000;
+        }
+
+        .exercises__boxes2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 200px;
+            margin-top: 60px;
+        }
+
+        .text__box-4{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        }
+
+        .text__box-4 h2{
+            color: #FFF;
+            font-family: Poppins;
+            font-size: 50px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 45px;
+            letter-spacing: 0.3px;
+            position: relative;
+            bottom: 45px;
+            left: 20px;
+        }
+
+
+        .img__box4 h3{
+            color: #FFF;
+            position: relative;
+            bottom: 30px;
+            left: 20px;
+            font-family: Poppins;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 14px;  
+            letter-spacing: 0.5px;
+        }
+        .exercises__box5{
+            width: 373px;
+            height: 296px;
+            background-color: #000;
+        }
+
+        .text__box-5{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        }
+
+        .text__box-5 h2{
+            color: #FFF;
+            font-family: Poppins;
+            font-size: 50px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 45px;
+            letter-spacing: 0.3px;
+            position: relative;
+            bottom: 45px;
+            left: 20px;
+        }
+
+
+        .img__box5 h3{
+            color: #FFF;
+            position: relative;
+            bottom: 30px;
+            left: 20px;
+            font-family: Poppins;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 14px;  
+            letter-spacing: 0.5px;
+        }
+        .exercises__box6{
+            width: 373px;
+            height: 296px;
+            background-color: #000;
+        }
+
+        .text__box-6{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        }
+
+        .text__box-6 h2{
+            color: #FFF;
+            font-family: Poppins;
+            font-size: 50px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 45px;
+            letter-spacing: 0.3px;
+            position: relative;
+            bottom: 45px;
+            left: 20px;
+        }
+
+
+        .img__box6 h3{
+            color: #FFF;
+            position: relative;
+            bottom: 30px;
+            left: 20px;
+            font-family: Poppins;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 14px;  
+            letter-spacing: 0.5px;
+        }
+
+
+    }
+
+
+}

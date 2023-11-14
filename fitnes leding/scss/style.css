@@ -1,0 +1,738 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-style: normal;
+}
+
+body {
+  background: #000;
+}
+
+.container {
+  max-width: 1700px;
+  height: 4460px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 95%;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.header .navbar {
+  width: 100%;
+  height: 22px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-top: 40px;
+}
+.header .navbar .links {
+  width: 480px;
+  height: 22px;
+}
+.header .navbar .links ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.header .navbar .links h3 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px; /* 100% */
+  letter-spacing: 1.5px;
+}
+.header .cardio-human {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+}
+.header .cardio-human .cardio__exercise {
+  width: 875px;
+  height: 650px;
+  margin-top: 60px;
+}
+.header .cardio-human .cardio__exercise .hight__workout {
+  width: 330px;
+  height: 36px;
+  border: 1px solid;
+  border-radius: 200px;
+  background-color: #2b2a2a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.header .cardio-human .cardio__exercise .btn__header button {
+  width: 46px;
+  height: 26px;
+  cursor: pointer;
+  border: none;
+  border-radius: 200px;
+  font-family: Poppins;
+  font-weight: 400;
+  background-color: #25ab75;
+  color: #fff;
+}
+.header .cardio-human .cardio__exercise .txt__right p {
+  width: 260px;
+  height: 18px;
+  color: #fff;
+  font-family: Poppins;
+  padding: 2px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+}
+.header .cardio-human .cardio__exercise .cardio__text {
+  width: 971px;
+  height: 384px;
+  margin-top: 20px;
+}
+.header .cardio-human .cardio__exercise .inbox {
+  width: 994px;
+  height: 340px;
+}
+.header .cardio-human .cardio__exercise .inbox h2 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 200px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 170px;
+  letter-spacing: -2px;
+}
+.header .cardio-human .cardio__exercise .bottom__txtcardio h2 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  max-width: 600px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0.5px;
+  opacity: 0.7;
+}
+.header .cardio-human .cardio__exercise .btn__bottom {
+  width: 430px;
+  height: 71px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+.header .cardio-human .cardio__exercise .btn1 {
+  width: 200px;
+  height: 70px;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  background-color: #25ab75;
+  border-radius: 10px;
+}
+.header .cardio-human .cardio__exercise .btn1 h3 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 1px;
+}
+.header .cardio-human .cardio__exercise .btn2 {
+  width: 200px;
+  height: 70px;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  background-color: #2b2a2a;
+  border-radius: 10px;
+}
+.header .cardio-human .cardio__exercise .btn2 h3 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 1px;
+}
+.header .cardio-human .human-right {
+  left: 750px;
+  height: 900px;
+  position: absolute;
+}
+.header .cardio-human .human-right img {
+  width: 90%;
+}
+.header .cardio-human .time__calories {
+  width: 168px;
+  padding: 30px;
+  height: 200px;
+  position: absolute;
+  right: 200px;
+}
+.header .cardio-human .days__box {
+  width: 168px;
+  height: 98px;
+  background-color: #2b2a2a;
+  border-radius: 20px;
+  position: relative;
+  right: 150px;
+  bottom: 140px;
+}
+.header .cardio-human .days {
+  color: #25ab75;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 1px;
+  padding: 20px 20px 0 57px;
+}
+.header .cardio-human .moth__txt {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 1px;
+  padding-left: 55px;
+  padding-top: 7px;
+}
+.header .cardio-human .time__box {
+  width: 168px;
+  height: 98px;
+  background-color: #2b2a2a;
+  border-radius: 20px;
+  position: relative;
+  right: 300px;
+  bottom: 57px;
+}
+.header .cardio-human .time {
+  color: #FFE642;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 1px;
+  padding: 20px 20px 0 35px;
+}
+.header .cardio-human .time__txt {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 1px;
+  padding-left: 39px;
+  padding-top: 7px;
+}
+.header .cardio-human .calories__box {
+  width: 168px;
+  height: 98px;
+  background-color: #2b2a2a;
+  border-radius: 20px;
+  position: relative;
+  right: 100px;
+}
+.header .cardio-human .calories__num {
+  color: #FB1351;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 1px;
+  padding: 20px 20px 0 35px;
+}
+.header .cardio-human .calories__txt {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 1px;
+  padding-left: 39px;
+  padding-top: 7px;
+}
+
+.exercises {
+  width: 95%;
+  height: 900px;
+  margin: 0 auto;
+}
+.exercises .exercises__txt {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+.exercises .exercises__txt .txt__left {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 45px;
+  letter-spacing: 0.3px;
+}
+.exercises .exercises__txt .txt__right {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 1.5px;
+}
+.exercises .exercises__boxes {
+  width: 100%;
+  height: 700px;
+  margin-top: 60px;
+}
+.exercises .exercises__boxes .exercises__boxes1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+}
+.exercises .exercises__boxes .exercises__box1 {
+  width: 373px;
+  height: 296px;
+  background-color: #000;
+}
+.exercises .exercises__boxes .text__box-1 {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.exercises .exercises__boxes .text__box-1 h2 {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 45px;
+  letter-spacing: 0.3px;
+  position: relative;
+  bottom: 45px;
+  left: 20px;
+}
+.exercises .exercises__boxes .img__box1 h3 {
+  color: #FFF;
+  position: relative;
+  bottom: 30px;
+  left: 20px;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.5px;
+}
+.exercises .exercises__boxes .exercises__box2 {
+  width: 373px;
+  height: 296px;
+  background-color: #000;
+}
+.exercises .exercises__boxes .text__box-2 {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.exercises .exercises__boxes .text__box-2 h2 {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 45px;
+  letter-spacing: 0.3px;
+  position: relative;
+  bottom: 45px;
+  left: 20px;
+}
+.exercises .exercises__boxes .img__box2 h3 {
+  color: #FFF;
+  position: relative;
+  bottom: 30px;
+  left: 20px;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.5px;
+}
+.exercises .exercises__boxes .exercises__box3 {
+  width: 373px;
+  height: 296px;
+  background-color: #000;
+}
+.exercises .exercises__boxes .text__box-3 {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.exercises .exercises__boxes .text__box-3 h2 {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 45px;
+  letter-spacing: 0.3px;
+  position: relative;
+  bottom: 45px;
+  left: 20px;
+}
+.exercises .exercises__boxes .img__box3 h3 {
+  color: #FFF;
+  position: relative;
+  bottom: 30px;
+  left: 20px;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.5px;
+}
+.exercises .exercises__boxes .exercises__box4 {
+  width: 373px;
+  height: 296px;
+  background-color: #000;
+}
+.exercises .exercises__boxes .exercises__boxes2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  margin-top: 60px;
+}
+.exercises .exercises__boxes .text__box-4 {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.exercises .exercises__boxes .text__box-4 h2 {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 45px;
+  letter-spacing: 0.3px;
+  position: relative;
+  bottom: 45px;
+  left: 20px;
+}
+.exercises .exercises__boxes .img__box4 h3 {
+  color: #FFF;
+  position: relative;
+  bottom: 30px;
+  left: 20px;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.5px;
+}
+.exercises .exercises__boxes .exercises__box5 {
+  width: 373px;
+  height: 296px;
+  background-color: #000;
+}
+.exercises .exercises__boxes .text__box-5 {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.exercises .exercises__boxes .text__box-5 h2 {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 45px;
+  letter-spacing: 0.3px;
+  position: relative;
+  bottom: 45px;
+  left: 20px;
+}
+.exercises .exercises__boxes .img__box5 h3 {
+  color: #FFF;
+  position: relative;
+  bottom: 30px;
+  left: 20px;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.5px;
+}
+.exercises .exercises__boxes .exercises__box6 {
+  width: 373px;
+  height: 296px;
+  background-color: #000;
+}
+.exercises .exercises__boxes .text__box-6 {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.exercises .exercises__boxes .text__box-6 h2 {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 45px;
+  letter-spacing: 0.3px;
+  position: relative;
+  bottom: 45px;
+  left: 20px;
+}
+.exercises .exercises__boxes .img__box6 h3 {
+  color: #FFF;
+  position: relative;
+  bottom: 30px;
+  left: 20px;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.5px;
+}
+
+.trainers {
+  width: 100%;
+  height: 1439px;
+  position: relative;
+  right: 100px;
+}
+.trainers .texts__trainers {
+  display: flex;
+  justify-content: space-between;
+}
+.trainers .box1__trainers {
+  width: 523px;
+  height: 480px;
+  position: relative;
+  top: 70px;
+  left: 220px;
+}
+.trainers .box1__trainers .text__left-trainer {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 120px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120px;
+  letter-spacing: -2px;
+}
+.trainers .box1__trainers .bg__text img {
+  position: relative;
+  bottom: 80px;
+}
+.trainers .box2__trainers {
+  width: 999px;
+  height: 733px;
+  background-color: #2b2b2b;
+  border-radius: 20px;
+}
+.trainers .box2__trainers .text__btn-box2 {
+  width: 560px;
+  height: 350px;
+  position: relative;
+  left: 300px;
+  margin-top: 80px;
+}
+.trainers .box2__trainers .text__box2-trainers {
+  width: 558px;
+  height: 200px;
+}
+.trainers .box2__trainers .in__text-box2 {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0.5px;
+  opacity: 0.7;
+}
+.trainers .box2__trainers .btn__text-box2 {
+  margin-top: 50px;
+}
+.trainers .box2__trainers .btn__box2-txt {
+  width: 200px;
+  height: 70px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #25AB75;
+  color: #fff;
+  border: none;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+}
+.trainers .trainers__images {
+  width: 100%;
+  height: 835px;
+  display: flex;
+  justify-content: center;
+}
+.trainers .trainers__images .box1__imgtrainers {
+  width: 377px;
+  height: 390px;
+  padding: 5px 20px;
+}
+.trainers .trainers__images .name__trainers h2 {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px; /* 125% */
+  letter-spacing: 0.5px;
+  padding: 5px;
+}
+.trainers .trainers__images .job {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  opacity: 0.5;
+  padding: 5px;
+}
+.trainers .trainers__images .box2__imgtrainers {
+  position: relative;
+  top: 340px;
+  left: 15px;
+}
+.trainers .trainers__images .name2__trainers h2 {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px; /* 125% */
+  letter-spacing: 0.5px;
+  padding: 5px;
+}
+.trainers .trainers__images .job2 {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  opacity: 0.5;
+  padding: 5px;
+}
+.trainers .trainers__images .box3__imgtrainers {
+  position: relative;
+  bottom: 230px;
+  left: 70px;
+}
+.trainers .trainers__images .name3__trainers h2 {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px; /* 125% */
+  letter-spacing: 0.5px;
+  padding: 5px;
+}
+.trainers .trainers__images .job3 {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  opacity: 0.5;
+  padding: 5px;
+}
+
+.footer {
+  width: 100%;
+  height: 920px;
+  margin-top: 150px;
+}
+.footer .in__footer {
+  width: 100%;
+  height: 93px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 60px;
+  margin-top: 50px;
+}
+.footer .in__footer .numbers__footer {
+  opacity: 0.7;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 35px;
+}
+.footer .in__footer .works__footer h2 {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 70px;
+  letter-spacing: 0.833px;
+}
+.footer .in__footer .videos__number {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  opacity: 0.6;
+  letter-spacing: 0.5px;
+}
+.footer .line {
+  width: 80%;
+  height: 1px;
+  margin: 0 auto;
+  border: 1px solid grey;
+  opacity: 0.4;
+  margin-top: 40px;
+}/*# sourceMappingURL=style.css.map */
